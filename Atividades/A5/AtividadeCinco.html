@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Atividade 5</title>
+</head>
+<body>
+
+<h1>Atividade 5</h1>
+<p>Formulário</p>
+
+<form>
+
+	<label for = "nome"> Nome: </label><br>
+    <input type = "text" id = "nome" value = "Kettelyn" nome = "nome" readonly ><br>
+    
+    <label for = "idade"> Idade: </label><br>
+    <input type = "number" id = "idqt" nome = "qt" min = "1" max = "130" step = "1" ><br>
+    
+    <label for = "email"> Email: </label><br>
+    <input type = "email" id = "email" nome = "email" maxlength = "50" autocomplete = "off" ><br>
+    
+    
+    <label for = "senha"> Senha: </label><br>
+    <input type = "password" id = "senha" name = "senha" ><br>
+    
+    
+
+<p>O que você mais gosta de fazer?</p>
+
+    
+  <select id="gostos" name="gostos">
+    <option value="ler">Ler</option>
+    <option value="escrever">Escrever</option>
+    <option value="ovir">Ouvir Música</option>
+    <option value="audio">Cantar</option>
+  	<input type="submit">
+  </select>
+  <hr>
+  
+<p>Sua Biografia</p>
+  
+  <textarea name="message" rows="10" cols="40">
+  
+</textarea>
+
+<input type="submit">
+
+<hr>
+
+<p>Que tipos de doces você compraria?</p>
+    
+  <input list="doces" name="doces">
+  <datalist id="doces">
+    <option value="Brigadeiro">
+    <option value="Bolos recheados">
+    <option value="Bolos simples">
+    <option value="Trufas">
+  </datalist>
+  <input type="submit">
+  <hr>
+  
+ <p>Em uma escola de 0 a 10, você come muito doce?</p> 
+ 
+   <label for = "valor"> Escolha </label><br>
+    0 <input type = "range" id = "valor" min = "0" max = "10" step = "2" >10 <br>
+    <hr>
+    
+    <fieldset>
+    <legend>Importantes:</legend>
+    <label for="finame">Nome:</label><br>
+    <input type="text" id="nome" name="nome" value="Kettelyn"><br>
+    <label for="idade">Idade:</label><br>
+    <input type="number" id="idqt" name="qt" value=""><br><br>
+     <label for = "email"> Email: </label><br>
+    <input type = "email" id = "email" nome = "email"><br>
+     <input type="Enviar" value="Enviar">
+  </fieldset>
+
+  
+  
+</form>
+
+</body>
+</html>
