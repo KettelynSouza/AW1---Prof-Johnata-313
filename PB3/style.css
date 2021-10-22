@@ -4,11 +4,12 @@ body {
   height: 100%;
 }
 
-.w {
+#w {
   width: 800px;
   margin: auto; 
   color: white;
   text-align: center;
+  display: flex;
 }
 
 h1{
