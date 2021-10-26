@@ -1,0 +1,50 @@
+body {
+  background: #DB7093;
+  font: 700 1rem 'Poppins', sans-serif;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  color:#ffb6c1;
+}
+.container {
+  text-align: center;
+}
+
+.button {
+  display: inline;
+  margin-left: 2rem;
+}
+
+button {
+  background-color: #FFC0CB;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius:0.5rem;
+  border: none;
+  border-color: #DB7093;
+  color: #DB7093;
+
+  
+}
+
+select{
+  width: 210px;
+  height: 60px;
+  font-size: 2em;
+  color: #DB7093;
+  background-color: #FFC0CB;
+  display: inline-block;
+
+}
+
+h2{
+  display: inline-block;
+  margin: 65px 0px 0px 40px;
+  font-family: fantasy;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  color: #f8cad2
+}
