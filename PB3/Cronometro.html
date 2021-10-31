@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Bimestral</title>
+  <link rel="stylesheet" href="Cronometro.css">
+
+  <!---FONTS-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav id="n">
+      <ul>
+        <li><a class="a" href="Alarme.html">Alarme</a></li>
+        <li><a class="a" href="Cronometro.html">Cronômetro</a></li>
+        <li><a class="a" href="Relogio.html">Relógio</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div id="w">
+    <h1>Cronômetro</h1>
+    <h1 id="cont">00:00:00</h1>
+    <div class="b">
+      <button onclick="start();" id="stop">Start</button>
+      <button onclick="stop();" id="start">Stop</button>
+      <button onclick="reset();" id="pause">Reset</button>
+
+    </div>
+  </div>
+  <script src="Cronometro.js"></script>
+
+</body>
+
+</html>
